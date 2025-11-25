@@ -3955,12 +3955,17 @@ form textarea {
   gap: 60px; }
 
 .counter-up-box {
-  --color-background: rgba(242,242,242,1);
+  --color-background: rgb(3 18 62);
   --color-border: rgba(0, 0, 0, 0.1);
   border: var(--style-border-width) solid var(--color-border);
   padding: 40px 20px;
   background: var(--color-background); }
-
+.counter-up-box .heading{
+  color: white !important;
+}
+.counter-up-box .text{
+  color: white;
+}
 @media (min-width: 768px) {
   .promotion-item:nth-child(even) {
     border-left: 2px solid var(--color-border); }
