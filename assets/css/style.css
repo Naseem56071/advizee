@@ -4735,8 +4735,14 @@ project-slider .swiper-slide {
     padding: 20px 15px; } }
 
 .testimonial {
-  --color-background: rgba(242, 242, 242, 1);
+  --color-background:rgb(3 18 62);
   background-color: var(--color-background); }
+.testimonial .icon, .span, .heading{
+color: white;
+}
+.testimonial .user-name{
+  color: rgb(3 18 62);
+}
 
 .card-testimonial {
   --color-background: rgba(255, 255, 255, 1);
@@ -5873,7 +5879,12 @@ blockquote:before {
 
 .section-contact-form {
   overflow: hidden; }
-
+.section-contact-form .heading{
+color: rgb(3 18 62);
+}
+.section-contact-form .text-32 {
+color: white;
+}
 .section-contact-form .card-icon-text-horizontal {
   -webkit-margin-before: 40px;
   margin-block-start: 40px; }
@@ -5887,7 +5898,7 @@ blockquote:before {
   margin-block-start: 32px; }
 
 .section-contact-form .contact-form-wrap {
-  --color-background: rgba(32, 40, 45, 1);
+  --color-background: rgb(3 18 62);
   --color-foreground: rgba(242, 242, 242, 1);
   --color-foreground-heading: rgba(255, 255, 255, 1);
   --color-input-text: rgba(93, 102, 111, 1);
@@ -5956,7 +5967,7 @@ blockquote:before {
   color: white; }
 
 .contact-2 .contact-info-list .svg-wrapper {
-  --color-background: rgba(32, 40, 45, 1);
+  --color-background: rgb(3 18 62);
   min-width: 60px;
   width: 60px;
   height: 60px;
