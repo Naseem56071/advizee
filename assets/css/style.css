@@ -6610,6 +6610,9 @@ footer .logo-with-newsletter .social-link {
 footer .logo-with-newsletter .social-link:hover {
   background-color: #d0c9c9; }
 
+  .footer-copyright {
+    text-align: center; }
+
 @media (min-width: 992px) {
   .footer-custom-row {
     display: -ms-grid;
