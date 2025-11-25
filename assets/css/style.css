@@ -3856,13 +3856,13 @@ form textarea {
   --color-secondary-button-hover-border: rgba(255, 255, 255, 0.3); }
 
 .promotion {
-  background-color: var(--color-background); }
+  background-color: rgb(3 18 62); }
 
 .promtion-content .subheading.subheading-bg {
   border: 1px solid var(--color-border); }
 
 .promotion-lists {
-  --color-background: rgba(62, 72, 78, 1);
+  --color-background: rgb(32 156 171);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
