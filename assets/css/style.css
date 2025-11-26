@@ -1,11 +1,4 @@
-/*
-Theme Name: Consulo Creative Business Consulting Template
-Theme URI: https://consulo-tw.vercel.app/
-Author: Spree Themes
-Author URI: https://themeforest.net/user/spreethemes/portfolio
-Description: Consulo is a creative business consulting HTML template designed for corporate entities and professional businesses.
-Version: 1.0.3
-*/
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -1046,11 +1039,11 @@ drawer-opener * {
 @media (min-width: 1280px) {
   .container-fluid {
     max-width: 1680px;
-    -webkit-padding-start: 3rem;
+    /* -webkit-padding-start: 3rem;
     padding-inline-start: 3rem;
     -webkit-padding-end: 3rem;
-    padding-inline-end: 3rem; } }
-
+    padding-inline-end: 3rem;  */
+} }
 @media (max-width: 991px) {
   .container,
   .container-md,
@@ -1456,6 +1449,13 @@ hero-slider {
   --style-border-width: 1px;
   background: var(--color-background);
   border-bottom: var(--style-border-width) solid var(--color-border); }
+.header-1 .header-menu .nav-item .menu-link{
+  color: white;
+}
+
+.header-1 .header-menu .nav-item .menu-link:hover{
+  color: rgb(24 40 87);
+}
 
 .header-2 {
   --top: 30px;
@@ -1492,6 +1492,14 @@ hero-slider {
   --color-secondary-button-hover-border: rgba(255, 255, 255, 0.3);
   --color-background:rgb(32 156 171);
   border-bottom: var(--style-border-width) solid rgba(255, 255, 255, 0); }
+
+/* .header-1.header-floating:hover,
+.header-1.header-sticky.scrolled-past-header .menu-link {
+color: #000;
+}
+.header-3.header-floating.menu-link:hover{
+  color: #000;
+} */
 
 .header-3.header-floating:hover,
 .header-3.header-sticky.scrolled-past-header {
@@ -1599,9 +1607,10 @@ sticky-header[data-sticky-type="always"] {
   display: inline-flex; }
 
 @media (min-width: 992px) {
-  .header-1 .header-nav {
+  /* .header-1 .header-nav {
     border-left: 1px solid var(--color-border);
-    border-right: 1px solid var(--color-border); }
+    border-right: 1px solid var(--color-border); 
+  } */
   .header-4 .header-nav {
     border-left: none;
     border-right: none; }
