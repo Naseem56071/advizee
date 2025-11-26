@@ -61,7 +61,14 @@ iframe,
 img {
   width: 100%;
   height: auto; }
-
+.foot-img{
+  border-radius: 7px 58px;
+}
+@media (max-width: 576px){
+.foot-img {
+    border-radius: 7px 25px;
+}
+}
 input,
 textarea,
 select {
@@ -1552,7 +1559,7 @@ sticky-header[data-sticky-type="always"] {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
 
 .header-logo {
-  max-width: 188px;
+  max-width: 300px;
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1936,7 +1943,7 @@ sticky-header[data-sticky-type="always"] {
 
 @media (max-width: 991px) {
   .header-nav {
-    --color-background: rgba(242, 242, 242, 1);
+    --color-background: rgb(32 156 171);
     --color-foreground: rgba(32, 40, 45, 1);
     --color-foreground-heading: rgba(28, 37, 57, 1);
     --color-primary: rgba(32, 40, 45, 1);
@@ -3568,7 +3575,7 @@ form textarea {
   .service-list .accordion-li svg {
     --size: 60px; }
   .service-list .accordion-li .icon {
-    --size: 36px; }
+    --size: 60px; }
   .our-services .service-content-inner .button {
     -webkit-margin-before: 35px;
     margin-block-start: 35px; }
@@ -3610,7 +3617,7 @@ form textarea {
   .service-list .accordion-li svg {
     --size: 50px; }
   .service-list .accordion-li .icon {
-    --size: 30px; }
+    --size: 55px; }
   .our-services .accordion-title-icon .heading {
     font-size: 20px; }
   .our-services .service-list {
@@ -6500,7 +6507,7 @@ footer {
   overflow: hidden; }
 
 .footer-logo {
-  max-width: 188px;
+  max-width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6545,7 +6552,9 @@ footer .social-link:hover {
 .footer-menu .link:focus,
 .footer-menu .link:hover {
   opacity: 0.75; }
-
+.footer-menu li a i{
+margin-right: 17px;
+}
 .widget-heading {
   font-weight: 600; }
 
@@ -6554,7 +6563,7 @@ footer .social-link:hover {
   margin-block-start: 28px; }
 
 .footer-top {
-  padding: 100px 0; }
+      padding: 90px 0px 50px; }
 
 .footer-policies {
   -webkit-box-orient: horizontal;
